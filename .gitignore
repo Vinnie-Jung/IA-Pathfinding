@@ -1,0 +1,25 @@
+# Ignorar arquivos e diretórios específicos do Unity
+[Tt]emp/
+[Ll]ibrary/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+
+# Ignorar arquivos de configuração do Unity
+ProjectSettings/
+
+# Ignorar arquivos específicos do A* Pathfinding Project
+Assets/AstarPathfindingProject/Editor/
+Assets/AstarPathfindingProject/Examples/
+Assets/AstarPathfindingProject/Documentation/
+
+# Ignorar arquivos temporários e de configuração do A* Pathfinding Project
+Assets/AstarPathfindingProject/AstarPathfinding/Editor/Backup/
+Assets/AstarPathfindingProject/AstarPathfinding/Editor/Logs/
+Assets/AstarPathfindingProject/AstarPathfinding/Editor/tmp/
+
+# Ignorar arquivos de build do A* Pathfinding Project
+Assets/AstarPathfindingProject/AstarPathfinding/Editor/BuiltInGraphImporter/
+
+# Ignorar arquivos específicos de teste do A* Pathfinding Project
+Assets/AstarPathfindingProject/AstarPathfinding/Editor/Testing/
