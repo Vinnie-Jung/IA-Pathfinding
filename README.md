@@ -1,17 +1,22 @@
 <div align="center">
     <h1>Pathfinding - AI</h1>
     <p>Pathfindings feitos na Unity usando NavMesh, Grid e Waypoints.</p>
-</div>
 
 ### Sobre o projeto
 
+</div>
+
 O projeto consiste em aplicar três maneiras de se utilizar o pathfinding na Unity. Os métodos utilizados foram movimentações com NavMesh, da própria Unity, Grid e Waypoints.
 
-**Versão da Unity:** 2022.3.12f1
-**Pacote Utilizado:** A* Pathfinding (versão gratuita) - Aron Granberg
-**Link do pacote:** https://arongranberg.com/astar
+**Versão da Unity:** 2022.3.12f1                                       <br>
+**Pacote Utilizado:** A* Pathfinding (versão gratuita) - Aron Granberg <br>
+**Link do pacote:** https://arongranberg.com/astar                     <br>
 
+<div align="center">
+    
 ### NavMesh
+
+</div>
 
 Foram criadas algumas paredes para funcionarem como obstáculos no cenário. Também foram adicionadas rampas para que se tivesse um relevo no mapa com a finalidade de incrementar o projeto.
 
@@ -24,7 +29,11 @@ Por último, foi adicionado um componente chamado de "*Nav Agent*" ao objeto do 
 **Caminho da Cena:** "/Assets/Scenes/NavMesh.unity" <br>
 **Caminho do Script:** "/Assets/Scripts/NavMesh.cs"
 
+<div align="center">
+    
 ### Grid
+
+</div>
 
 Para fazer o *pathfinding* em grade foi utilizado o pacote A* do desenvolvedor Aron Granberg, que possui um componente chamado "*Pathfinder*", a base do seu pacote.
 
@@ -32,7 +41,11 @@ Foi utilizada a opção de grade do *Pathfinder*, em que é possível atribuir a
 
 **Caminho da Cena:** "/Assets/Scenes/Grid.unity"
 
+<div align="center">
+    
 ### Waypoint
+
+</div>
 
 Para aplicar o método de *waypoints* também foi utilizado o mesmo pacote A* mencionado na sessão **Grid**.
 
